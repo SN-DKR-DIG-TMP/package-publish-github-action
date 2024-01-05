@@ -1,5 +1,5 @@
 {
-  "name": "angular-github-actions",
+  "name": "@SN-DKR-DIG-TMP/angular-github-actions",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,8 +8,15 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-github-actions": "node dist/angular-github-actions/server/server.mjs"
+    
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SN-DKR-DIG-TMP/angular-github-actions_final.git"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+},
   "dependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.0.0",
@@ -25,6 +32,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
+
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.0.6",
