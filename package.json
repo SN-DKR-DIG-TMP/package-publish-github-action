@@ -1,5 +1,5 @@
 {
-  "name": "@SN-DKR-DIG-TMP/angular-github-actions",
+  "name": "@SN-DKR-DIG-TMP/package-publish-github-action",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SN-DKR-DIG-TMP/angular-github-actions_final.git"
+    "url": "https://github.com/SN-DKR-DIG-TMP/package-publish-github-action.git"
   },
   "publishConfig": {
   "registry": "https://npm.pkg.github.com/"
