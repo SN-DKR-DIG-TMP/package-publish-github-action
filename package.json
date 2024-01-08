@@ -1,6 +1,6 @@
 {
   "name": "@SN-DKR-DIG-TMP/package-publish-github-action",
-  "version": "0.0.1.java",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
